@@ -43,16 +43,27 @@ a:hover{ color:#125e9c; text-decoration:underline;}
 }
 
 .header h1{
-	height:85px;
+	height:1px;
 	width:620px;
 	float:left;
-	text-indent:-9999px;
+
+	font-size: 35;
+font-style:oblique;
+	/*text-indent:-9999px*/;
 	display:inline;
-	background-image: url(../uploadfile/images/header.png) no-repeat;
-	margin-top: 24px;
+	/*background:  url(../uploadfile/images/logo.png) no-repeat;*/
+	color: #61B5ED ;
+	margin-top: 45px;
 	margin-right: 0;
-	margin-bottom: 0;
+	margin-bottom: 63px;
 	margin-left: 15px;
+}
+
+.header h3  {
+width:620px;
+	color: #61B5ED ;
+	margin-left: 15px;
+	float:left;
 }
 
 .link{ width:250px; float:right; height:25px; line-height:25px; color:#4e4e4e; padding:7px 0 0 0;}
@@ -148,7 +159,7 @@ a:hover{ color:#125e9c; text-decoration:underline;}
 .proList ul{ padding:5px 0 0 10px; list-style:none; border: 1px dashed #b8b8b8;}
 
 .proList li{
-	height:25px;
+	height:35px;
 	width:215px;
 	border-bottom:1px dashed #b8b8b8;
 }
